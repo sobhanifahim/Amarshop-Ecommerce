@@ -1,10 +1,17 @@
 import './App.css';
-
+import {BrowserRouter,Route,Routes} from "react-router-dom";
+import FeatureProduct from './components/FeatureProduct';
+import Login from './components/login';
 function App() {
   return (
     <div className="App">
-       <h1>AmarShop</h1>
        
+       <BrowserRouter>     
+        <Routes>
+                <Route path = "/" element={<FeatureProduct/>}></Route> 
+                <Route path = "/login" element={<Login/>}></Route> 
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
