@@ -1,9 +1,9 @@
 import Navbar from './navbar';
-export default function Electronics() {
-    return (
+export default function Contracts() {
+    return(
         <>
         <Navbar/>
-        Electronics
+        Contracts
         </>
     );
 };
