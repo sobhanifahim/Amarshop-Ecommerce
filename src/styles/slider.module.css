@@ -1,0 +1,15 @@
+
+.imagecontainer{
+    height: 70vh;
+    width: 100%;   
+}
+.image {
+    height: 70vh;
+    width: 50vw;
+    margin-left: 25%;
+    
+  }
+  .sliderdiv{
+    width: 90%;
+    margin-left: 5%;
+  }

@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className={Nav.box}>
             <button className={Nav.menuButton} onClick={toggleMenu}>&#9776;</button>
             <div className={Nav.logoContainer}>
-            <i><b className={Nav.logo}>AmarShop</b></i>
+            <Link to='/' style={{textDecoration:'none'}}><i><b className={Nav.logo}>AmarShop</b></i></Link>
             </div>
             
             <div className={`${Nav.options} ${menuOpen ? Nav.open : ''}`}>
