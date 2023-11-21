@@ -1,0 +1,11 @@
+.naming{
+    height: 20vh;
+    background-color: #685F58;
+    margin: 5% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headertext{
+    color: white;
+}

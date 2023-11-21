@@ -43,7 +43,8 @@
     display: flex;
     padding: 0; 
     align-items: center;
-    justify-content: center;/* Remove default padding for ul */
+    justify-content: center;
+    margin-left: 15%;
 }
 
 .options ul li {
@@ -91,6 +92,9 @@
   .options{
     margin-left: 0%;
   }
+  .options ul{
+    margin-left: 0%;
+  }
   .cartcontainer{
     margin-left: 5%;
   }
@@ -103,6 +107,7 @@
   .options ul{
     display: grid;
     place-items: center;
+    margin-left: 0%;
   }
   .options {
     flex-direction: column;
@@ -147,6 +152,9 @@
   .options{
     margin-left: 0%;
   }
+  .options ul{
+    margin-left: 0%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -157,6 +165,7 @@
   .options ul{
     display: grid;
     place-items: center;
+    margin-left: 0%;
   }
   .options {
     flex-direction: column;

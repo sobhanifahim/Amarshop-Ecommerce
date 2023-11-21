@@ -17,34 +17,66 @@
     
 }
 .Electronics{
-    height: 50vh;
+    height: 80vh;
     width: 20vw;
-    background-color: grey;
+    background-color: #FFF6E8;
     margin-top: 3%;
     margin-bottom: 3%;
-    border-radius: 5px;
+    border-radius: 10px;
+    position: relative;
+    
 }
 .jewelery{
-    height: 50vh;
+    height: 80vh;
     width: 20vw;
-    background-color: grey;
+    background-color: #FFF6E8;
     margin-top: 3%;
     margin-bottom: 3%;
-    border-radius: 5px;
+    border-radius: 10px;
+    position: relative;
 }
 .men{
-    height: 50vh;
+    height: 80vh;
     width: 20vw;
-    background-color: grey;
+    background-color: #FFF6E8;
     margin-top: 3%;
     margin-bottom: 3%;
-    border-radius: 5px;
+    border-radius: 10px;
+    position: relative;
 }
 .women{
-    height: 50vh;
+    height: 80vh;
     width: 20vw;
-    background-color: grey;
+    background-color: #FFF6E8;
     margin-top: 3%;
     margin-bottom: 3%;
+    border-radius: 10px;
+    position: relative;
+}
+img{
+    height: 45vh;
+    width: 20vw;
+    border-radius: 10px 10px 0 0;
+}
+.title{
+    text-align: center;
+}
+.text{
+    text-align: justify;
+    margin: 0 4%;
+}
+.btn{
+    position: absolute;
+    bottom: 20px;
+    left: 50%; 
+    transform: translateX(-50%);
+    height: 5vh;
     border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(35, 35, 35);
+    transition: 0.2s ease-in;
 }
