@@ -7,6 +7,7 @@ import JeweleryImg from '../media/jewelery.jpg';
 import MensImg from '../media/mens.jpg';
 import WomensImg from '../media/womens.jpg';
 import SectionforFeature from './SectionforFeature';
+import Featured from './Featured';
 export default function FeatureProduct() {
     const [data,setData]=useState(null)
     useEffect(()=>{
@@ -32,6 +33,7 @@ export default function FeatureProduct() {
         <ImageSlider images={images}/>
         </div>
         <SectionforFeature/>
+        <Featured/>
         </>
     );
 };
