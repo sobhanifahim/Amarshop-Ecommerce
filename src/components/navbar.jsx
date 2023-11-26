@@ -30,6 +30,7 @@ export default function Navbar() {
             </div>
             <div className={Nav.cartcontainer}>
             <FontAwesomeIcon icon={faCartShopping} className={Nav.cart}/>
+            <div class={Nav.cartcount}>0</div>
             <Link to='/login'><FontAwesomeIcon icon={faUser} className={Nav.userlogin}/></Link>
             </div>
         </div>
